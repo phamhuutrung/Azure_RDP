@@ -9,8 +9,6 @@ echo To change another VM region, Create New organization (Your current VM locat
 echo Region Available: West Europe, Central US, East Asia, Brazil South, Canada Central, Autralia East, UK South, South India
 echo All done! Connect your VM using RDP. When RDP expired and VM shutdown, Rerun failed jobs to get a new RDP.
 net user installer /delete
-curl -o "C:\Users\Public\Desktop\Readme-create-by-TinHocThucHanh.txt" https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/Readme-create-by-TinHocThucHanh.txt > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\SetupBrowser.zip" https://raw.githubusercontent.com/eweiss2021/Azure_RDP/main/SetupBrowser.zip > out.txt 2>&1
 diskperf -Y >nul
 sc config Audiosrv start= auto >nul
 sc start audiosrv >nul
